@@ -48,7 +48,10 @@ if IP address is 192.168.1.2 then the formula to get its decimal number is:
 
 
 5.CONCLUSION: We have successfully developed a loganalyzer using python programming that is capable of parsing the apache log files and finding the location of ipaddresses present in the logs,other than that it also generates the count of ipaddresses.As an input we have given a folder named access_logs containing 32 log files.Our code reads each file and performs three different functions:
+
  Splitting contents of log file
+
  Generate IP count
+
  Find location of each ipaddress
-In output it generates
+
