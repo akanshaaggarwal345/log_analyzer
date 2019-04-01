@@ -48,7 +48,7 @@ def splitcontent(logfiles):
 		
    
 
-		file2.write(ipaddress+ "," +date+","+method+","+status+","+size+"\n")
+		file2.write(ipaddress+ "," +date+","+method+","+status+","+size+"\n") #write back to the file
 	file1.close()
 
 
