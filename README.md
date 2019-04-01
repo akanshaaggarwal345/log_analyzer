@@ -23,7 +23,7 @@ This module finds the ipaddress from the logs in logfiles and then stores them i
 1.3 dbip_intip.py: Now,our next task is to find the locations of the ip addresses.For that,we need the dbip dataset and in order to use this dataset we must convert our ipaddresses(172.23.4.5) from dotted decimal to decimal form and that's what this file performs:
 if IP address is 192.168.1.2 then the formula to get its decimal number is: 
 
-192*16777216 + 168*65536 + 1*256 + 2 which comes out to be 3232235778
+192 * 16777216 + 168 * 65536 + 1 * 256 + 2 = 3232235778
 
 
 1.4 createdbippy :This module creates a small database in sqlite3 named as dbip.db and hen it pushes the data of iprange.csv file to a table named as ipdb in dbip.db.This will help us finding the location of the ip addresses from the database dbip using a simple sqlite query.
